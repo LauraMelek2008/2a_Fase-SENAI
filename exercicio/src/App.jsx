@@ -4,6 +4,10 @@ import Media from './componentes/Media'
 import Copo from './componentes/Copo'
 import ParOuInpar from './componentes/ParOuInpar'
 import SalarioNoBolso from './componentes/SalarioNoBolso'
+import UberStar from './componentes/UberStar'
+import Produto from './componentes/Produto'
+import Notas from './componentes/Notas'
+import Porco from './componentes/Porco'
 
 function App() {
 
@@ -16,6 +20,14 @@ function App() {
     <ParOuInpar/>
 
 <SalarioNoBolso/>
+
+<UberStar/>
+
+<Produto/>
+
+<Notas/>
+
+<Porco/>
 
     <Exemplo/>
     </>

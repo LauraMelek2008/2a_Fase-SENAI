@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './ParOuImpar.css'
 
 function ParOuInpar() {
     const [resultado, setResultado] = useState()
@@ -36,13 +37,14 @@ function ParOuInpar() {
 
 
   return (
-    <div>
+    <div className='Par-container'>
       <h2>atividade 2</h2>
 <button onClick={copinho2}>Copo 2</button>
 
 
     
-       {resultado}
+      {resultado}
+      
     </div>
   )
 }

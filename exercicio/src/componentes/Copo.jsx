@@ -18,7 +18,7 @@ setResultado(copo1)
 }
 
   return (
-    <div>
+    <div className='Copo-container'>
 <h2>atividade 1</h2>
 <button onClick={copinho1}>Copo 1</button>
 
