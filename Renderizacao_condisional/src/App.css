@@ -1,0 +1,22 @@
+nav{
+  border: 1px solid #000;
+padding: 10px;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+
+}
+
+body{
+place-items: center;
+margin: 0;
+display: flex;
+min-width: 320px;
+min-height: 100vh;
+background-color: rgb(239, 238, 238);
+color: rgb(198, 135, 216);
+text-align: center;
+padding: 10%;
+font-size: 24px;
+
+}
