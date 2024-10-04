@@ -26,10 +26,10 @@ function mostrarHome(){
     <nav>
       
 
-      <button onClick={mostrarPages1}>Pages1</button>
-      <button onClick={mostrarHome}>Home</button>
-      <button onClick={() => {(setPagina(<Pages2/>))} }>Pages2</button>
-      <button onClick={() => {(setPagina(<Rander/>))} }> Rander </button>
+<button onClick={mostrarPages1}>Pages1</button>
+<button onClick={mostrarHome}>Home</button>
+<button onClick={() => {(setPagina(<Pages2/>))} }>Pages2</button>
+<button onClick={() => {(setPagina(<Rander/>))} }> Rander </button>
      
     </nav>
 
